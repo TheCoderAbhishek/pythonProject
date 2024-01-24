@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+print("Are you ready to calculate your age?")
+birth_year = input("What is your birth year? ")
+current_year = input("What is current year? ")
+age = int(current_year) - int(birth_year)
+print(f"{name} you are {age} years old.")
