@@ -7,7 +7,7 @@ current_temperature = int(input("What is today's temperature (in degree celsius)
 # else:
 #     print("Enjoy Day! It's a good day.")
 
-if 30 > current_temperature > 10:
+if current_temperature < 30 and current_temperature > 10:
     print("Enjoy Day! It's a good day.")
 elif current_temperature > 30:
     print("It's a hot day!")
